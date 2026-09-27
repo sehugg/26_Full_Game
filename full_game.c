@@ -6,6 +6,10 @@
  *	Doug Fraker 2018 (edit 2023)
  */	
  
+//#link "crt0.s"
+//#tooldef ld cfgfile=nrom_32k_vert.cfg
+//#resource "nrom_32k_vert.cfg"
+//#tooldef ld libargs=nes.lib
 #include "LIB/neslib.h"
 #include "LIB/nesdoug.h"
 #include "Sprites.h" // holds our metasprite data
